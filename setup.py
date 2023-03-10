@@ -122,7 +122,7 @@ setup(
     package_dir=package_dir,
     package_data=package_data,
     setup_requires=["pyquicksetup", 'cython', 'scipy', 'scikit-learn'],
-    install_requires=['cython', 'scikit-learn>=1.0', 'pandas', 'scipy',
+    install_requires=['pyquicksetup', 'cython', 'scikit-learn>=1.0', 'pandas', 'scipy',
                       'matplotlib', 'pandas_streaming', 'numpy>=1.16'],
     ext_modules=ext_modules,  # cythonize(ext_modules),
 )
